@@ -8,18 +8,17 @@ function MyPortfolio() {
 
         <div  className="row justify-content-center">
           
-                {projects.map(project => (
-                    <ProjectCard
-                        key={project.id}
-                        title={project.title}
-                        image={project.image}
-                        url={project.url}
-                        gitURL={project.gitURL}
-                    />
-                ))}
-                </div>
-             
-         
+            {projects.map(project => (
+                <ProjectCard
+                    key={project.id}
+                    title={project.title}
+                    image={project.image}
+                    url={project.url}
+                    gitURL={project.gitURL}
+                />
+            ))}
+        </div>
+        
     )
 }
 
