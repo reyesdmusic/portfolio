@@ -5,7 +5,7 @@ import "./style.css";
 
 function About() {
   return (
-    <div className="row justify-content-center">
+    <div id="about-container" className="row justify-content-center">
       <div className="col-md-6 d-flex justify-content-center">
 
         <div id="my-card" class="card align-items-center">

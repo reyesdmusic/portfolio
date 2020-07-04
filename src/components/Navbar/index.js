@@ -6,14 +6,14 @@ import image from "./profilelogo.png";
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function Navbar() {
   return (
-    <nav id="my-nav-item" className="navbar navbar-expand-lg">
+    <nav id="my-nav-item" className="navbar navbar-expand-lg navbar-dark bg-dark">
       
       <Link className="navbar-brand" to="/">
       <img id="my-logo" src={image}/>
       </Link>
      
-      <div >
-        <ul className="nav navbar-nav navbar-right">
+      <div class="ml-auto">
+        <ul className="navbar-nav ">
        
           <li className="nav-item">
             <Link

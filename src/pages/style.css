@@ -7,9 +7,11 @@
     border-color:  #5400ff;
 }
 
+
+
 #my-card {
-    margin-top: 10px;
-    background-color: black;
+    margin-top: 40px;
+    background-color: rgba(0, 0, 0, 0.336);
     border: none;
     font-family: 'Courier New', Courier, monospace;
   font-size: 20px;
