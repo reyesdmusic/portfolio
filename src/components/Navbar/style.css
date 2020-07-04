@@ -1,3 +1,49 @@
 nav.navbar.navbar-default {
   margin-bottom: 0;
+ 
+}
+
+#my-nav-item {
+  background-color: black !important;
+  height: 200px;
+}
+
+
+h5 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+  color: #fb5e5e;
+}
+
+h5:hover {
+  color: #9762ff;
+}
+
+#my-logo {
+  height: 150px;
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  #my-logo {
+    height: 130px;
+  }
+}
+
+@media only screen and (max-width: 536px) {
+  #my-logo {
+    height: 110px;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  #my-logo {
+    height: 80px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  #my-logo {
+    height: 50px;
+  }
 }

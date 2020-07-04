@@ -1,60 +1,45 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
+import image from "./profilelogo.png";
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav id="my-nav-item" className="navbar navbar-expand-lg">
+      
       <Link className="navbar-brand" to="/">
-        Employee Directory
+      <img id="my-logo" src={image}/>
       </Link>
-      <div>
-        <ul className="navbar-nav">
-          {/* <li className="nav-item">
-            <Link
-              to="/"
-              className={
-                window.location.pathname === "/" || window.location.pathname === "/about" 
-                  ? "nav-link active"
-                  : "nav-link"
-              }
-            >
-              About
-            </Link>
-          </li> */}
+     
+      <div >
+        <ul className="nav navbar-nav navbar-right">
+       
           <li className="nav-item">
             <Link
-              to="/employees"
-              className={window.location.pathname === "/employees" ? "nav-link active" : "nav-link"}
+              to="/about"
+              className={window.location.pathname === "/about" ? "nav-link active" : "nav-link"}
             >
-              All Employees
+              <h5>ABOUT</h5>
             </Link>
           </li>
           <li className="nav-item">
             <Link
-              to="/search"
-              className={window.location.pathname === "/search" ? "nav-link active" : "nav-link"}
+              to="/myportfolio"
+              className={window.location.pathname === "/myportfolio" ? "nav-link active" : "nav-link"}
             >
-              Search Employee
+              <h5>PORTFOLIO</h5>
             </Link>
           </li>
           <li className="nav-item">
             <Link
-              to="/searchDepartment"
-              className={window.location.pathname === "/searchDepartment" ? "nav-link active" : "nav-link"}
+              to="/contact"
+              className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
             >
-              Search by Department
+              <h5>CONTACT</h5>
             </Link>
           </li>
-          <li className="nav-item">
-            <Link
-              to="/searchRole"
-              className={window.location.pathname === "/searchRole" ? "nav-link active" : "nav-link"}
-            >
-              Search by Role
-            </Link>
-          </li>
+         
         </ul>
       </div>
     </nav>
