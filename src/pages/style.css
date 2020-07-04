@@ -8,7 +8,7 @@
 }
 
 #my-card {
-    margin-top: 30px;
+    margin-top: 10px;
     background-color: black;
     border: none;
     font-family: 'Courier New', Courier, monospace;
@@ -27,4 +27,8 @@
 #my-link:hover {
     text-decoration: none;
     color: #ff8a8a;
+}
+
+ul {
+    list-style-type: none;
 }

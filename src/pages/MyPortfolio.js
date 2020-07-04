@@ -1,32 +1,26 @@
-import React, { Component } from "react";
-import employees from "../utils/employees";
-import ResultList from "../components/ResultList";
+import React from "react";
+import ProjectCard from "../components/ProjectCard";
+import projects from "./projectsInfo";
 
+function MyPortfolio() {
 
-
-class MyPortfolio extends Component {
-  state = {
-    results: []
-  };
-
-  
- 
-  componentDidMount() {
-
-    this.setState({ results: employees })
-
-  }
-
-  
-
-  render() {
     return (
-      <div>
-        <h1 className="text-center">All Employees</h1>
-        <ResultList results={this.state.results} />
-      </div>
-    );
-  }
+
+        <div  className="row justify-content-center">
+          
+                {projects.map(project => (
+                    <ProjectCard
+                        key={project.id}
+                        title={project.title}
+                        image={project.image}
+                        url={project.url}
+                        gitURL={project.gitURL}
+                    />
+                ))}
+                </div>
+             
+         
+    )
 }
 
 export default MyPortfolio;

@@ -1,5 +1,4 @@
 import React from "react";
-import Hero from "../components/Hero";
 import image from "./profile-pic.jpg";
 import resume from "./danny_reyes_resume2.pdf";
 import "./style.css";
@@ -19,7 +18,7 @@ function About() {
   <a id="my-link" href={resume} target="_blank" rel="noopener noreferrer">RESUME</a>
   <a id="my-link" href="mailto:reyesdmusic@gmail.com">EMAIL</a>
   </div>
-  <p className="card-text">I’m a Full Stack Web developer with a creative spirit. A self-starter who works well independently but also thrives in groups. Always eager to learn, I'm coachable and excited about coding.</p>
+  <p className="card-text">I’m a Full Stack Web developer with a creative spirit. A self-starter who works well independently but also thrives in teams. Always eager to learn, I'm coachable and excited about coding.</p>
   <p className="card-text">I recently received a full stack coding certificate from the University of Richmond coding bootcamp.</p>
  
   </div>
