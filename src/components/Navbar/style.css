@@ -6,6 +6,7 @@ nav.navbar.navbar-default {
 #my-nav-item {
   background-color: black !important;
   height: 200px;
+  width: 100% auto;
 }
 
 
