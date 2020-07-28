@@ -1,3 +1,4 @@
+import whatsGood from "./images/whats-good.png";
 import reeledIn from "./images/reeledIn-ui.png";
 import employeeDirectory from "./images/employee-directory-ui.png";
 import workoutTracker from "./images/workout-tracker-ui.png";
@@ -5,50 +6,57 @@ import budgetTracker from "./images/budget-tracker-ui.png";
 import cli from "./images/cli.png";
 import weatherApp from "./images/weather-dashboard-ui.png";
 
-const projectsInfo = 
-[
-    {
+const projectsInfo =
+
+    [{
         "id": 1,
+        "title": "What's Good",
+        "image": whatsGood,
+        "url": "https://whatsgood-v1.herokuapp.com/",
+        "gitURL": "https://github.com/emijoha/Project3"
+    },
+    {
+        "id": 2,
         "title": "ReeledIn",
         "image": reeledIn,
         "url": "https://reeledin.herokuapp.com",
         "gitURL": "https://github.com/skooma1992/ReeledIn"
     },
     {
-        "id": 2,
+        "id": 3,
         "title": "Employee Directory",
         "image": employeeDirectory,
         "url": "http://reyesdmusic.github.io/Employee-Directory",
         "gitURL": "https://github.com/reyesdmusic/Employee-Directory"
     },
     {
-        "id": 3,
+        "id": 4,
         "title": "Workout Tracker",
         "image": workoutTracker,
         "url": "https://mighty-dusk-89089.herokuapp.com",
         "gitURL": "https://github.com/reyesdmusic/Workout-Tracker"
     },
     {
-        "id": 4,
+        "id": 5,
         "title": "Budget Tracker",
         "image": budgetTracker,
         "url": "https://intense-journey-40815.herokuapp.com/",
         "gitURL": "https://github.com/reyesdmusic/PWA_Budget_Tracker"
     },
     {
-        "id": 5,
+        "id": 6,
         "title": "Management Tool CLI",
         "image": cli,
         "url": "https://github.com/reyesdmusic/Employee-Tracker",
         "gitURL": "https://github.com/reyesdmusic/Employee-Tracker"
     },
     {
-        "id": 6,
+        "id": 7,
         "title": "Weather Dashboard",
         "image": weatherApp,
         "url": "https://reyesdmusic.github.io/weatherdashboard/",
         "gitURL": "https://github.com/reyesdmusic/weatherdashboard"
     }
-]
+    ]
 
 export default projectsInfo;

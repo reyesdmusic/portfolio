@@ -1,6 +1,6 @@
 import React from "react";
 import image from "./profile-pic.jpg";
-import resume from "./danny_reyes_resume2.pdf";
+import resume from "./danny_reyes_res.pdf";
 import "./style.css";
 
 function About() {
